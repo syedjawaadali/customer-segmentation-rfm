@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+# generated at runtime by the project's own scripts
+data/
+outputs/
+*.db
+*.sqlite
+*.png
+!docs/*.png
+.DS_Store
+.env
