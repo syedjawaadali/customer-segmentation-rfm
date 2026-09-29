@@ -1,0 +1,46 @@
+{
+  "n_customers": 2000,
+  "n_transactions": 10165,
+  "k_clusters": 4,
+  "silhouette_score": 0.299,
+  "total_monetary": 1016378.01,
+  "avg_orders_per_customer": 5.08,
+  "champions_pct_of_customers": 18.6,
+  "champions_pct_of_revenue": 29.9,
+  "segment_sizes": {
+    "Champions": 372,
+    "Loyal": 549,
+    "Potential": 566,
+    "At Risk": 282,
+    "Hibernating": 231
+  },
+  "revenue_by_segment": {
+    "Champions": 303585.83,
+    "Loyal": 337436.11,
+    "Potential": 239040.83,
+    "At Risk": 86772.37,
+    "Hibernating": 49542.87
+  },
+  "cluster_profiles": {
+    "0": {
+      "recency": 6.0,
+      "frequency": 4.6,
+      "monetary": 440.2
+    },
+    "1": {
+      "recency": 55.6,
+      "frequency": 2.5,
+      "monetary": 203.1
+    },
+    "2": {
+      "recency": 13.7,
+      "frequency": 7.4,
+      "monetary": 787.4
+    },
+    "3": {
+      "recency": 43.7,
+      "frequency": 4.7,
+      "monetary": 465.3
+    }
+  }
+}
